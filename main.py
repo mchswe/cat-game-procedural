@@ -44,11 +44,16 @@ while play:
         pass
 
     # finish off the if statements below
-    if cat_attributes['energy'] < 2:
+    if cat_attributes["energy"] < 0 and cat_attributes["weight"] == 0:
+        play = False
+        print("Your Cat has Died.")
+        break
+    elif cat_attributes['energy'] < 2:
         print("You cannot train your cat or play with your cat")
         pass
     elif cat_attributes["weight"] > 50:
         print("You cannot feed your cat")
+    
     else:
         pass
     
