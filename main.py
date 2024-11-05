@@ -23,12 +23,12 @@ while play:
         # change the cat's attributes here
         cat_attributes["energy"] -= 2
         cat_attributes["weight"] -= 1 
-        print("Energy: - 2. \n Weight: - 1.")
+        print("Energy: - 2. \nWeight: - 1.")
         pass
     elif option == '2':
         cat_attributes["intelligence"] += 2
         cat_attributes["energy"] += 1
-        print("Intelligence: + 2 \n Energy: + 1")
+        print("Intelligence: + 2 \nEnergy: + 1")
         pass
     elif option == '3':
         print(cat_attributes)
@@ -38,7 +38,7 @@ while play:
     elif option == '5':
         cat_attributes["intelligence"] += 1
         cat_attributes["energy"] += 5
-        print("Intelligence: + 1 \n Energy: + 5")
+        print("Intelligence: + 1 \nEnergy: + 5")
     elif option == '6':
         play = False
         break
